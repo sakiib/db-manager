@@ -1,4 +1,4 @@
-package main
+package dbmgr
 
 import (
 	"flag"
@@ -53,10 +53,6 @@ func (mgr *DBManager) GetDBCreds() (*api.Secret, error) {
 	}
 
 	return sr, nil
-}
-
-func main() {
-
 }
 
 func init() {
